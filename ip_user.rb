@@ -2,9 +2,9 @@ class Take
 def from_user
 puts "Your name ? "
 name = gets.chomp
-puts "what is your last name ?"
-last_name = gets.chomp
-puts " Your name is #{name} and your last name is #{last_name}"
+puts "what is your roll no ?"
+roll_no = gets.chomp.to_i
+puts " Your name is #{name} and your roll no is #{roll_no}"
 end
 end
 obj=Take.new
